@@ -12,9 +12,16 @@ script:
   - echo "Building"
   - yarn build
 deploy:
-  provider: firebase
-  skip_cleanup: true
-  token: "$FIREBASE_TOKEN"
-  on:
-    branch: master
-  project: "devandfest"
+  - provider: firebase
+    skip_cleanup: true
+    token: "$FIREBASE_TOKEN"
+    on:
+      branch: master
+      condition: $TRAVIS_TAG =~ ^v[0-9]+\.[0-9]+\.[0-9]+
+    project: "devandfest"
+  - provider: firebase
+    skip_cleanup: true
+    token: "$FIREBASE_TOKEN"
+    on:
+      branch: master
+    project: "devandfest-dev"
