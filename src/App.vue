@@ -5,7 +5,7 @@
         <Header/>
       </a-layout-header>
       <a-layout-content>
-        <HelloWorld msg="DevAndFest"/>
+        <router-view></router-view>
       </a-layout-content>
       <a-layout-footer>
         <Footer/>
@@ -15,14 +15,12 @@
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
 import Header from './components/Header.vue'
 import Footer from './components/Footer.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld,
     Header,
     Footer
   }
