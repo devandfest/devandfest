@@ -1,11 +1,18 @@
 import Vue from 'vue'
-import App from './App.vue'
-import { Layout } from 'ant-design-vue';
+import { Layout, Menu } from 'ant-design-vue';
 import 'ant-design-vue/dist/antd.css'
 
+
+import App from './App'
+import router from './router'
+
 Vue.use(Layout);
+Vue.use(Menu);
 Vue.config.productionTip = false;
 
+
+
 new Vue({
-  render: h => h(App)
-}).$mount('#app')
+    router,
+    render: h =>h(App),
+}).$mount('#app');
