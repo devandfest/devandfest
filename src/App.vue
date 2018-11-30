@@ -1,12 +1,13 @@
+<!--
+@license
+Copyright (c) 2018 The DevAndFest creators.
+This code may only be used under the MIT style license.
+-->
 <template>
   <div id="app">
     <a-layout>
-      <a-layout-header>
-        <Header/>
-      </a-layout-header>
-      <a-layout-content>
-        <HelloWorld msg="DevAndFest"/>
-      </a-layout-content>
+      <Header title="DevAndFest"/>
+      <Home/>
       <a-layout-footer>
         <Footer/>
       </a-layout-footer>
@@ -15,14 +16,14 @@
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Home from './components/Home.vue'
 import Header from './components/Header.vue'
 import Footer from './components/Footer.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld,
+    Home,
     Header,
     Footer
   }
@@ -31,7 +32,7 @@ export default {
 
 <style>
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: Arial, Helvetica;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
