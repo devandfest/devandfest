@@ -1,9 +1,7 @@
 <template>
   <div id="app">
-    <a-layout>
-      <a-layout-header>
-        <Header/>
-      </a-layout-header>
+    <a-layout id="layout">
+      <Header/>
       <a-layout-content>
         <router-view></router-view>
       </a-layout-content>
@@ -34,5 +32,9 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+}
+
+#layout {
+  background-color: white;
 }
 </style>
