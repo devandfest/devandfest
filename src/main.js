@@ -1,5 +1,5 @@
 import Vue from 'vue'
-import { Layout, Menu } from 'ant-design-vue';
+import { Layout, Menu, Icon } from 'ant-design-vue';
 import 'ant-design-vue/dist/antd.css'
 
 
@@ -8,6 +8,7 @@ import router from './router'
 
 Vue.use(Layout);
 Vue.use(Menu);
+Vue.use(Icon);
 Vue.config.productionTip = false;
 
 
