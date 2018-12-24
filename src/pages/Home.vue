@@ -1,23 +1,29 @@
+
 <template>
-    <div class="hello">
-        <h1>{{ msg }}</h1>
-    </div>
+    <section>
+        <h1>{{ welcome }}</h1>
+        <Timeline id="timeline"/>
+    </section>
 </template>
 
 
 <script>
+    import Timeline from '../components/Timeline.vue'
 
     export default {
         name: 'Home',
+        components: {
+            Timeline
+        },
         data () {
             return {
-                msg: 'Hello'
+                welcome: "Bienvenido"
             }
         }
     }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
+
 <style scoped>
     h3 {
         margin: 40px 0 0;
@@ -32,5 +38,8 @@
     }
     a {
         color: #42b983;
+    }
+    #timeline {
+        margin: 0 auto;
     }
 </style>
