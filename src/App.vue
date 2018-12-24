@@ -1,7 +1,9 @@
 <template>
   <div id="app">
     <a-layout id="layout">
-      <Header/>
+      <a-layout-content>
+        <Header/>
+      </a-layout-content>
       <a-layout-content>
         <router-view></router-view>
       </a-layout-content>
