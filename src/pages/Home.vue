@@ -1,11 +1,13 @@
 <template>
     <div class="hello">
         <h1>{{ msg }}</h1>
+        <welcome-carousel/>
     </div>
 </template>
 
 
 <script>
+    import WelcomeCarousel from "../components/WelcomeCarousel.vue"
 
     export default {
         name: 'Home',
@@ -13,6 +15,9 @@
             return {
                 msg: 'Hello'
             }
+        },
+        components: {
+            WelcomeCarousel
         }
     }
 </script>
