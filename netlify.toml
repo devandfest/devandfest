@@ -4,8 +4,5 @@ command = "yarn build"
 
 [context.deploy-preview]
 
-
 [context.branch-deploy]
-
-
 
