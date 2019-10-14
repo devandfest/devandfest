@@ -132,7 +132,7 @@ ticketsOffers:
   priceCurrency: "EUROS"
   ticketsNumber: "200"
   ribbon: ""
-  buyButtonLink: "https://www.meetup.com/es-ES/granadagdg/events/253173823/"
+  buyButtonLink: "https://www.eventbrite.es/e/entradas-devandfest-73472770033"
   buyButtonText: "Registro"
   ticketContentList: [""]
   validFrom: "2019-08-25T10:00"
