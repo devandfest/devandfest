@@ -10,21 +10,21 @@ exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
 
 
 # Site Settings
-title: "GDG DevFest Granada 2018"
-email: "contacto@gdggranada.com"
-description: "GDG DevFest Granada 2018. El punto de encuentro con tu comunidad local"
+title: "DevAndFest 19"
+email: "info@devandfest.com"
+description: "DevAndFest 19, el evento para los desarrolladores andaluces"
 baseurl: ""
-url: "https://devfest.gdggranada.com"
+url: "https://devandfest.com"
 permalink: "/blog/:title"
 googleAnalyticsTrackingId: ""
 googleAnalyticsSiteUrl: ""
 siteVerification: ""
 
 # Organizer Info
-organizerName: "GDG Granada"
-organizerAlternateName: "Google Developer Group Granada"
-organizerDescription: "GDG Granada es una entidad sin ánimo de lucro creada con el objetivo de mejorar la comunidad de entusiastas tecnológicos y aumentar el conocimiento y las relaciones entre las personas que se dedican a esta área."
-organizerEmail: "contacto@gdgranada.com"
+organizerName: "DevAndFest"
+organizerAlternateName: "DevAndFest organization"
+organizerDescription: "DevAndFest es una organización sin ánimo de lucro cuyo único fin es el de la libre distribución de conocimiento"
+organizerEmail: "info@devandfest.com"
 organizerLogo: "/img/seo/organizer-logo.png"
 organizerLink: "http://devandfest.com"
 
