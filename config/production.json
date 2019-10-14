@@ -1,0 +1,16 @@
+{
+  "basepath": "/",
+  "url": "https://devandfest.firebaseapp.com/",
+  "analytics": "",
+  "prefix": "/",
+  "firebase": {
+    "appId": "",
+    "apiKey": "AIzaSyCnKSjmP8qLjBCnmMjKJ6QpCl5UQfNPmkI",
+    "authDomain": "devandfest.firebaseapp.com",
+    "databaseURL": "https://devandfest.firebaseio.com",
+    "projectId": "devandfest",
+    "storageBucket": "devandfest.appspot.com",
+    "messagingSenderId": "516409946568"
+  },
+  "googleMapApiKey": ""
+}
