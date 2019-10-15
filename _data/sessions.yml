@@ -1,110 +1,72 @@
 -
   id: 307
   title: "Coffee Break"
-  place: "Cafetería"
+  place: "Entrada Salon de Actos"
+  service: true
+  description: "The best time to talk with speakers and attendees"
+
+-
+  id: 308
+  title: "Lunch"
+  place: "Exterior"
+  service: true
+  description: "The best time to talk with speakers and attendees"
+
+-
+  id: 309
+  title: "Close Talk"
+  place: "Salon de Actos"
   service: true
   description: "The best time to talk with speakers and attendees"
 
 -
   id: 000
-  title: ""
-  description: ""
+  title: "Registro"
+  description: "Entrada"
   subtype: presentation
   speakers: []
   language: es
   complexity: "Beginner"
 -
   id: 001
-  title: "Humanizando tu asistente de voz"
-  description: "Ya todo estamos familiarizados con lo que es un asistente de voz como siri o assistant pero... cuanto de cómodo es hablar con una maquina que parece una máquina. Todos los esfuerzos de las grandes compañias estan puesto a día de hoy en hacer que los asistentes, no sean tan robóticos y en esta charla vamos a ver como con la tecnología que tenemos a nuestro alcance a día de hoy, podemos hacer esto posible."
+  title: "Welcome to DevAndFest"
+  description: "Salon de Actos"
   subtype: presentation
-  speakers: [1]
+  speakers: []
   language: es
   complexity: "Beginner"
 -
   id: 002
-  title: "One Flutter to rule them all"
-  description: "A punto de alcanzar su versión 1.0, Flutter está emergiendo como un candidato al trono de los SDK multiplataforma para iOS y Android. Por ahora, parece que ha encontrado su nicho en las consultoras que tienen entre manos proyectos efímeros o en fases iniciales. Sin embargo, la herramienta puede dar mucho más. En esta charla, discutiremos si puede tener sentido añadir Flutter a un proyecto existente de una de las dos plataformas (y si es posible); cogeremos un código Flutter para Android/iOS y lo desplegaremos en otros sistemas operativos como Chrome OS, Windows, Linux o MacOS; y hablaremos del sistema operativo donde Flutter es la forma nativa de hacer UI: Fuchsia. Todo esto en una charla con más código y menos slides. ¿Alguien dijo “efecto demo”? (edited)"
+  title: "Descubriendo AlphaStar"
+  description: "AlphaStar es el último sistema basado en Inteligencia Artificial capaz de derrotar a los mejores jugadores de StarCraft II. Pero la gran pregunta, es como funciona este sistema, cuales son los algoritmos de Inteligencia Artificial que utiliza para conseguir jugar de esa manera o cómo ha sido capaz de aprender a jugar así.
+                En esta charla describiremos cuales son las piezas que componen este sistema basado en Inteligencia Artificial y para que sirve cada una de ellas. Para ellos realizaremos una análisis detallado de cada una de las piezas describiendo su funcionamiento y para que han sido utilizadas en la construcción del sistema. "
   subtype: presentation
-  speakers: [2]
+  speakers: [1]
   language: es
-  complexity: "Beginner"
+  complexity: "Medium"
 -
   id: 003
-  title: "Dialogflow: chateando con las máquinas o al menos intentándolo"
-  description: "Es posible chatear con una máquina y no acabar hasta las narices de sus estúpidas respuestas. En los últimos años se ha popularizado el uso de sistemas conversacionales automáticos o chatbots que nos permite mejorar la interacción con muchos servicios y productos o en algunos casos empeorarlos.
-                En esta charla exploraremos cual es el proceso para crear un chatbot, que cosas debemos tener en cuenta y que explicaremos cómo funciona dialogflow creando un sencillo chatbot para interactuar mediante voz con nuestro chatbot. Tal vez incluso veamos algo de inteligencia artificial en el proceso."
-  subtype: presentation
-  speakers: [3]
-  language: es
-  complexity: "Beginner"
--
-  id: 004
-  title: "Kubernetes, Istio & Kiali"
-  description: "There are some open-source platforms for managing containerized workloads and services like Kubernetes, openshift ... But What is Istio? Istio helps reduce the complexity of these deployments, and eases the strain on your development teams. It is a completely open source service mesh that layers transparently onto existing distributed applications. And What are the microservices in my Istio service mesh doing ? Kiali is the answer for this question. Kiali provide the observability for the  Istio service mesh."
-  subtype: presentation
-  speakers: [4]
-  language: es
-  complexity: "Beginner"
--
-  id: 005
-  title: "kotlin para androides"
-  description: "Llevamos ya más de un año con Kotlin como lenguaje oficial para Android, y en el camino hemos aprendido mucho sobre como hacer las cosas mejor. En esta charla veremos como cambia nuestro código y exprimiremos la potencia del lenguaje, explicando propiedades que van a hacer nuestra vida más sencilla."
-  subtype: presentation
-  speakers: [5]
-  language: es
-  complexity: "Beginner"
--
-  id: 006
-  title: "#AbadIA: Como creamos una AI para jugar y resolver La Abadía del Crimen"
-  description: "El día que creamos una AI que jugara a La Abadía del Crimen
-
-                ¿Conoces la Abadía del Crimen?
-
-                La abadía es un juego de 8-bit (para spectrum y CPC) que se convirtió en el primer juego RPG en 3D (2.5D) en 1987.
-                Este juego es una maravilla desde un punto de vista tecnológico:  en solo menos de 120k es capaz de almacenar el sonido, las imágenes, toda la lógica del programa y los datos .
-
-                ¿Conseguiste terminar el juego sin ayuda?
-
-                No conozco a nadie que se lo haya pasado  sin ayuda. Es uno de los  juegos mas complicados que se han desarrollado,  como unas 1000x comparado con la venganza de montezuma de Atari. Más o menos (5**7000x)
-
-                En la charla contaremos como diseñamos y construimos una AI capaz de jugar solo y aprender a completar el juego.
-                "
-  subtype: presentation
-  speakers: [6]
-  language: es
-  complexity: "Beginner"
--
-  id: 007
-  title: "Transformando los datos en Google Cloud Platform"
-  description: "Como transformar datos en Google Cloud"
+  title: "Is your app for everyone? A primer on accessibility for Android"
+  description: "In this talk, you will learn how supporting accessibility helps in a lot of different cases, from temporal illnesses or reversible situations to severe disabilities. Moreover, you will learn how people use different Android accessibility services such as Talkback or SwitchAccess to interact with your application in a different way. We will also explore the current range of developer tools that can be used to spot potential accessibility issues in our apps.
+                And finally, you will learn how developers, designers and product managers can work together to make sure that we create experiences for everyone."
   subtype: presentation
   speakers: [7]
   language: es
   complexity: "Beginner"
 -
-  id: 008
-  title: "Integrating your IoT projects with Actions On Google"
-  description: "So you've put together a couple of IoT projects, and it'd be pretty cool if you were able to control them with your voice, right? In this deep dive we'll go through all the pieces you'll need to integrate your nifty gadgets with the Google Assistant. We'll showcase a neat demo project: a cute Lego house that's controlled with your voice and the new Lenovo smart display."
+  id: 004
+  title: "How to be a speaker (for dummies)"
+  description: "Sabemos que mandar una propuesta y ponerse delante del público puede imponer, pero aquí aprenderás cómo afrontar el proceso de ser ponente: desde mandar la propuesta mientras te preguntas si es tan necesario hasta ese temblor de piernas mientras subes los escalones hasta el escenario."
   subtype: presentation
-  speakers: [8]
+  speakers: [13]
   language: es
   complexity: "Beginner"
-
 -
-  id: 009
-  title: "Keynote"
-  description: ""
-  subtype: presentation
-  speakers: [4,9]
-  language: es
-  complexity: "Beginner"
-
--
-  id: 010
-  title: "End Keynote"
-  description: ""
-  subtype: presentation
-  speakers: [4,9]
+  id: 005
+  title: "Entiende, instala, observa y arregla tu malla de servicios con Istio y Kiali"
+  description: "Como parte de nuestro desarrollo en seedtag una de las necesidades que tuvimos que afrontar fue la de crear un sistema que nos permitiera gestionar y generar reportes con la información que pasaba por nuestro sistema basado en microservicios para poder controlar desde el negocio cosas tan importantes la evolución de nuestro producto y su facturación.
+                En esta charla veremos las diferentes opciones que planteamos para realizar esta tarea, las que funcionaron y las que tuvimos que modificar para acabar con un sistema que actualmente procesa más de 3 TB al día de eventos (y sigue creciendo día a día) utilizando herramientas de Google Cloud."
+  subtype: workshop
+  speakers: [16]
   language: es
   complexity: "Beginner"

@@ -194,7 +194,7 @@
       - {name: "twitter", link: "https://twitter.com/laura_morillo"}
       - { name: "github", link: "https://github.com/lauramorillo"}
 -
-   id: 15
+   id: 16
    name: "Xavier"
    surname: "Canal Masjuan"
    company: "RedHat"
@@ -207,7 +207,7 @@
       - {name: "twitter", link: "https://twitter.com/xeviknal"}
       - { name: "github", link: "https://github.com/xeviknal"}
 -
-   id: 16
+   id: 17
    name: "Sergio"
    surname: "Gómez"
    company: "Aula de Software Libre de la Universidad de Córdoba"
@@ -221,7 +221,7 @@
       - {name: "twitter", link: "https://twitter.com/sgomez"}
       - { name: "github", link: "https://github.com/sgomez"}
 -
-   id: 16
+   id: 18
    name: "Carlos"
    surname: "Macías Martín"
    company: "Zerox IT / GDG Huelva"
