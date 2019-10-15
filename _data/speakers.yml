@@ -75,42 +75,161 @@
      - {name: "linkedin", link: "https://www.linkedin.com/in/juantomasgarcia/"}
 -
    id: 7
-   name: "Iván"
-   surname: "Fernández Perea"
-   company: "BBVA Next Technologies"
-   title: "Arquitecto Cloud & Big Data"
-   bio: "I am a Cloud & Big Data software engineer who has worked with technologies such as Hadoop, Spark or HBase on a Cloud environment (Amazon Web Services, Google Cloud, Microsoft Azure and IBM Softlayer). I have experience with Big Data related technologies like Flume, Kafka or Flink among others using Cloudera and Hortonworks distributions."
-   thumbnailUrl: ivan.jpg
-   rockstar: true
+   name: "David"
+   surname: "Lázaro Esparcia"
+   company: "Blinkist"
+   title: "Android Engineer"
+   bio: "David is a Spanish Android engineer, currently working at Blinkist. He has been focused on Android development since 2012 and has always been working for small product-based companies. He is interested in creating high-quality user experiences and delivering real value in the apps he works on. He also loves music and playing the guitar in his spare time."
+   thumbnailUrl: david_lazaro.jpeg
+   rockstar: false
    social:
-      - {name: "linkedin", link: "https://www.linkedin.com/in/ivanfernandezperea/"}
+      - {name: "linkedin", link: "https://www.linkedin.com/in/david-lazaro-esparcia/"}
+      - {name: "twitter", link: "https://twitter.com/_dlazaro"}
+      - { name: "github", link: "https://github.com/dlazaro66"}
 -
    id: 8
-   name: "Orestes"
-   surname: "Cararcedo"
-   company: "Lighthorse Consulting"
-   title: "Software Engineer "
-   bio: "Full-stack software developer living in Galicia, northwest Spain. Consultant, mentor, speaker and community organiser. Co-founder at Lighthorse Consulting"
-   thumbnailUrl: orestes.jpeg
+   name: "José Antonio"
+   surname: "Ruiz Santiago"
+   company: "Digital55"
+   title: "Full-stack developer"
+   bio: "José Antonio Ruiz es desarrollador web, actualmente trabaja en Digital55 de forma remota desde Almería. Es un apasionado de las tecnologías web y mobile: Ionic, Firebase, Angular, PWA, etc. Colabora en algunos proyectos open source como runnerty.io. Además es speaker habitual y co-organizador de AlmeriaJs. "
+   thumbnailUrl: david_lazaro.jpeg
    rockstar: false
    social:
-      - {name: "linkedin", link: "https://www.linkedin.com/in/orestesca/"}
-
+      - {name: "linkedin", link: "https://www.linkedin.com/in/jose-antonio-ruiz-santiago/"}
+      - {name: "twitter", link: "https://twitter.com/joseant_ruiz"}
+      - { name: "github", link: "https://github.com/jhonsensf"}
 -
    id: 9
-   name: "Israel"
-   surname: "Blancas"
-   company: "RTI"
-   title: "Software Engineer "
-   bio: "Ingeniero de Software en Real Time Innovations desde 2016.
-
-         Me encanta la creación de aplicaciones web, IoT (Internet de las Cosas) y todo lo que tenga que ver con la informática.
-
-         Organizador de charlas y eventos, principalmente con Google Developers Group Granada
-         Me apasiona asistir a charlas sobre cualquier tecnología y los hackathones, ya que considero que son el medio perfecto para aprender de otros profesionales en poco tiempo.
-
-         Amante del software libre."
-   thumbnailUrl: israel.jpeg
+   name: "Olmo"
+   surname: "Gallegos"
+   company: "GoMore (Amovens)"
+   title: "Android Developer"
+   bio: "José Antonio Ruiz es desarrollador web, actualmente trabaja en Digital55 de forma remota desde Almería. Es un apasionado de las tecnologías web y mobile: Ionic, Firebase, Angular, PWA, etc. Colabora en algunos proyectos open source como runnerty.io. Además es speaker habitual y co-organizador de AlmeriaJs. "
+   thumbnailUrl: david_lazaro.jpeg
    rockstar: false
    social:
-      - {name: "linkedin", link: "https://www.linkedin.com/in/iblancasa/"}
+      - {name: "linkedin", link: "https://www.linkedin.com/in/voghDev/"}
+      - {name: "twitter", link: "https://twitter.com/voghDev"}
+      - { name: "github", link: "https://github.com/voghDev"}
+-
+   id: 10
+   name: "Nicolas"
+   surname: "Patarino"
+   company: "Tuenti"
+   title: "Senior Software Engineer"
+   bio: "Soy un porteño amante de Android y Kotlin. Soñador. Primero de su nombre. Asador del software.
+         Aprendí muchísimo en empresas como Sun Microsystems, Qualcomm, Heineken o Idealista, ahora sigo haciéndolo de sus compañeros en Tuenti.
+         También desorganizo la comunidad de Madrid Android Developer Group y organizo un montón de saraos"
+   thumbnailUrl: david_lazaro.jpeg
+   rockstar: false
+   social:
+      - {name: "linkedin", link: "https://www.linkedin.com/in/npatarino/"}
+      - {name: "twitter", link: "https://twitter.com/npatarino"}
+      - { name: "github", link: "https://github.com/npatarino"}
+-
+   id: 11
+   name: "Miguel"
+   surname: "Jimenez"
+   company: "ApetEat"
+   title: "CTO"
+   bio: "Muchachito de Castilla que se mudó a la gran ciudad con su maleta llena de sueños e  ilusiones  para afrontar nuevos retos profesionales. Llevo desarrollando con Python + Django desde 2012 y desde el primer contacto con Python caí prendado por el lenguaje. Con Linux, Python y Vim puedo conquistar el mundo. Actualmente trabajo como CTO en la startup ApetEat, el eCommerce que está revolucionando la forma de comer en la oficina."
+   thumbnailUrl: david_lazaro.jpeg
+   rockstar: false
+   social:
+      - {name: "linkedin", link: "https://www.linkedin.com/in/miguelflg13/"}
+      - {name: "twitter", link: "https://twitter.com/miguelflg13"}
+      - { name: "github", link: "https://github.com/miguelflg13"}
+
+-
+   id: 12
+   name: "JJ"
+   surname: "Merelo"
+   company: "Perl 6 core / Universidad de Granada"
+   title: ""
+   bio: "Developer since the eighties and until my eighties. Teaching and researching at the university of Granada. Loves all programming languages."
+   thumbnailUrl: david_lazaro.jpeg
+   rockstar: false
+   social:
+      - {name: "linkedin", link: "https://www.linkedin.com/in/jjmerelo/"}
+      - {name: "twitter", link: "https://twitter.com/jjmerelo"}
+      - { name: "github", link: "https://github.com/JJ"}
+-
+   id: 13
+   name: "Cristina"
+   surname: "Díaz García"
+   company: "Universidad de Granada"
+   title: ""
+   bio: "Estudiante de ingeniería informática en la UMA. Apasionada de la tecnología, organizadora de eventos y adoradora de pingüinos."
+   thumbnailUrl: david_lazaro.jpeg
+   rockstar: false
+   social:
+      - {name: "linkedin", link: "https://www.linkedin.com/in/cdg-97/"}
+      - {name: "twitter", link: "https://twitter.com/ladynightmare_2"}
+      - { name: "github", link: "https://github.com/LadyNightmare"}
+-
+   id: 14
+   name: "Javier"
+   surname: "Tallón"
+   company: "Beyond IT Security SL"
+   title: "jtsec"
+   bio: "Consultor experto de estándares de seguridad IT como Common Criteria, FIPS 140-2, LINCE o PCI-PTS. Ponente en diversas conferencias en materia de seguridad IT y certificación, y profesor del máster de Ciberseguridad de la UGR. Full stack hacker wannabe, Javier es cofundador, Director Técnico y Jefe de Operaciones de jtsec Beyond IT Security.
+."
+   thumbnailUrl: david_lazaro.jpeg
+   rockstar: false
+   social:
+      - {name: "linkedin", link: "https://www.linkedin.com/in/javiertallon/"}
+      - {name: "twitter", link: "https://twitter.com/javiertallon"}
+-
+   id: 15
+   name: "Laura"
+   surname: "Morillo-Velarde"
+   company: "seedtag"
+   title: "Teach Lead"
+   bio: "Tech Lead en seedtag, Google Developer Expert en Cloud y Google Cloud Certified como Professional Cloud Architect. Lleva más de 12 años trabajando en el mundo del desarrollo de software con diferentes tecnologías principalmente en en backend en desarrollo web."
+   thumbnailUrl: david_lazaro.jpeg
+   rockstar: false
+   social:
+      - {name: "linkedin", link: "https://www.linkedin.com/in/lauramorillovelarderodriguez/"}
+      - {name: "twitter", link: "https://twitter.com/laura_morillo"}
+      - { name: "github", link: "https://github.com/lauramorillo"}
+-
+   id: 15
+   name: "Xavier"
+   surname: "Canal Masjuan"
+   company: "RedHat"
+   title: "Software Engineer"
+   bio: "Xavier es ingeniero del software en Red Hat. Ha dedicado más de una década en desarrollo, despliegue y optimización de aplicación con alta disponibilidad. Actualmente está trabajando con temas de observabilidad para el proyecto de Kiali. "
+   thumbnailUrl: david_lazaro.jpeg
+   rockstar: false
+   social:
+      - {name: "linkedin", link: "https://www.linkedin.com/in/xavicanal/"}
+      - {name: "twitter", link: "https://twitter.com/xeviknal"}
+      - { name: "github", link: "https://github.com/xeviknal"}
+-
+   id: 16
+   name: "Sergio"
+   surname: "Gómez"
+   company: "Aula de Software Libre de la Universidad de Córdoba"
+   title: "Coordinador"
+   bio: "Catañol, cordobéh y subversivo. Colecciono títulos de Ingeniería Informática. Trabajo en el Servicio de Informática de la Universidad de Córdoba
+          y coordino el Aula de Software Libre. Si no estoy montando algo estoy durmiendo. Duermo poco."
+   thumbnailUrl: david_lazaro.jpeg
+   rockstar: false
+   social:
+      - {name: "linkedin", link: "https://www.linkedin.com/in/decano/"}
+      - {name: "twitter", link: "https://twitter.com/sgomez"}
+      - { name: "github", link: "https://github.com/sgomez"}
+-
+   id: 16
+   name: "Carlos"
+   surname: "Macías Martín"
+   company: "Zerox IT / GDG Huelva"
+   title: "Mobile Developer"
+   bio: "Mobile developer at Zerox IT :)."
+   thumbnailUrl: david_lazaro.jpeg
+   rockstar: false
+   social:
+      - { name: "linkedin", link: "https://es.linkedin.com/in/carlos-mac%C3%ADas-mart%C3%ADn-201187131"}
+      - { name: "twitter", link: "https://twitter.com/CarlosMaciMar"}
+      - { name: "github", link: "https://github.com/carlosmacmar"}
