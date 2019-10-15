@@ -1,9 +1,0 @@
--
-  group: "Patrocinador principal"
-  elements:
-    - {name: "Google", description: "Google", link: "https://www.google.com.ua/intl/en/about/", imageUrl: "google.svg"}
--
-  group: "Lugar de celebración"
-  elements:
-    - {name: "Universidad de Granada", description: "Universidad de Granada", link: "https://ugr.es", imageUrl: "ugr.svg"}
-    - {name: "ETSIIT UGR", description: "ETSTIIT UGR", link: "https://etsiit.ugr.es", imageUrl: "etsiit.png"}
