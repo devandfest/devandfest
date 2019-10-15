@@ -19,6 +19,29 @@
   service: true
   description: "The best time to talk with speakers and attendees"
 
+- id: 310
+  title: "Continue workshop"
+  description: ""
+  subtype: workshop
+  speakers: []
+  language: es
+  complexity: "Beginner"
+
+- id: 311
+  title: "Mystery Talk"
+  description: ""
+  subtype: presentation
+  speakers: []
+  language: es
+  complexity: "Beginner"
+
+- id: 312
+  title: "Open Space"
+  description: ""
+  subtype: presentation
+  speakers: []
+  language: es
+  complexity: "Beginner"
 -
   id: 000
   title: "Registro"
@@ -70,3 +93,137 @@
   speakers: [16]
   language: es
   complexity: "Beginner"
+
+-
+  id: 006
+  title: "Despliegue de modelos de Machine Learning en producción"
+  description: "Durante la charla veremos diferentes formas en las que podemos desplegar modelos en producción con diferentes tecnologías, desde generar puntos de API con modelos en R a soluciones mas simples usando TensorFlow con Google Cloud"
+  subtype: presentation
+  speakers: [2]
+  language: es
+  complexity: "Medium"
+-
+  id: 007
+  title: "Lleva tu app a la nube con Firebase."
+  description: "La filosofía serverless está muy de moda. No tener que mantener el servidor donde corren nuestras aplicaciones, olvidarnos de actualizaciones, escalabilidad, parches de seguridad, instalar y mantener bases de datos, etc… es el sueño de cualquier programador.
+                Firebase es una solución muy completa e ideal para desarrollar un proyecto con esta arquitectura. En la charla veremos los servicios más importantes que ofrece como Functions (computación en la nube), Databases (Realtime y Firestore), Hosting, Storage, etc…
+                Además de un ejemplo de una aplicación Angular que hace uso de todos estos servicios de Firebase."
+  subtype: presentation
+  speakers: [8]
+  language: es
+  complexity: "Beginner"
+-
+  id: 008
+  title: "Mitigando overflows mediante defensa en profundidad ¿Qué puede hacer tu compilador por ti?"
+  description: "La defensa en profundidad parte del principio de que, si bien ninguna seguridad es perfecta, la presencia de muchas capas independientes de defensas aumentará geométricamente la dificultad de un atacante para romper las murallas y ralentizarlas hasta el punto de que el esfuerzo para llevar un ataque a cabo no valga la pena. Cada capa multiplica los efectos de la capa anterior. Si la pared exterior disuade el 90% de los ataques, y las paredes interiores disuaden el 90% de los ataques, entonces en combinación disuaden el 99% de los ataques. Las técnicas de defensa en profundidad colocan los activos centrales detrás de capas de seguridad variadas e individualmente efectivas, cada una de las cuales tiene que ser eludida para que un ataque tenga éxito.
+                Son muchas las opciones proporcionadas por tu compilador o por el kernel de tu sistema operativo que pueden ayudarte a mitigar conocidos ataques como los buffer overflow sin tocar una sola línea de código. En esta presentación realizaremos un recorrido histórico por las mitigaciones propuestas a lo largo del tiempo por los investigadores en ciberseguridad, y como estas han sido vulneradas, obligando a desarrollar nuevas e ingeniosas contramedidas. "
+  subtype: presentation
+  speakers: [14]
+  language: es
+  complexity: "Beginner"
+
+-
+  id: 009
+  title: "Lo que hay detrás de mi foto de 80 años"
+  description: "Aplicaciones como FaceApp o Deepfake han causado un gran revuelo y se han viralizado a través de las redes sociales. ¿La clave? Los asombrosos resultados en generación y/o modificación de imágenes de caras humanas. En esta charla me gustaría contar qué hay detrás de todos estos sistemas, algoritmos y tendencias de inteligencia artificial que siguen la línea de esos trabajos. También hablaré ligeramente de privacidad y 'AI explainability' como principal reflexión ante la existencia y despliegue de estos sistemas."
+  subtype: presentation
+  speakers: [3]
+  language: es
+  complexity: "Beginner"
+-
+  id: 010
+  title: "kotlinx.coroutines: The future of threading"
+  description: "In this talk we will give a brief introduction to kotlinx.coroutines library and the problem it tries to solve, and we'll go a little deeper in some concepts that every dev using the library must know."
+  subtype: presentation
+  speakers: [9]
+  language: es
+  complexity: "Beginner"
+-
+  id: 011
+  title: "Gestión de eventos de aplicación en la nube"
+  description: "Como parte de nuestro desarrollo en seedtag una de las necesidades que tuvimos que afrontar fue la de crear un sistema que nos permitiera gestionar y generar reportes con la información que pasaba por nuestro sistema basado en microservicios para poder controlar desde el negocio cosas tan importantes la evolución de nuestro producto y su facturación.
+                En esta charla veremos las diferentes opciones que planteamos para realizar esta tarea, las que funcionaron y las que tuvimos que modificar para acabar con un sistema que actualmente procesa más de 3 TB al día de eventos (y sigue creciendo día a día) utilizando herramientas de Google Cloud."
+  subtype: presentation
+  speakers: [15]
+  language: es
+  complexity: "Beginner"
+-
+  id: 012
+  title: "Mira mamá, sin manos."
+  description: "La base de datos es solo un detalle de nuestro aplicación (Uncle Bob dixit) y como tal no puede marcarnos el diseño del dominio. Si usamos un ORM (o un ODM si usamos noSQL) tendremos la ventaja de crear código muy rápido pero a costa de tener que sacrificar diseño y calidad. Primero porque no todo se puede modelar de forma que un ORM o un ODM lo soporte y segundo porque probablemente nos obligue a usar un modelo anémico (anemic model) en vez de un modelo rico (rich model). Para entendernos: clases llenas de getters y setters que no garantizan que nuestra información sea consistente con las reglas de dominio.
+                Durante dos horas veremos que es posible una alternativa a las bases de datos relacionales y no relacionales. Porque, ¿y si en vez de almacenar el estado final de la información almacenamos cada cambio que se haga? ¡Podríamos reconstruir nuestras entidades en cualquier punto de su historia!  Eso es Event Sourcing, un almacén donde se guardan todos los cambios de estado de una aplicación como una secuencia de eventos (Martin Fowler dixit).
+                Desarrollaremos una pequeña API con Typescript, donde podamos comprobar in situ como funciona Event Sourcing, que ventajas y desventajas aporta y en qué situaciones es posible usarlo."
+  subtype: workshop
+  speakers: [17]
+  language: es
+  complexity: "Beginner"
+-
+  id: 013
+  title: "Descubriendo Google Cloud IoT Core"
+  description: "Google Cloud IoT: integración, almacenamiento de datos y visualización con Google Cloud. Aprenderemos cómo conectar un dispositivo a Google Cloud IoT y transmitir los datos ingeridos a una base de datos para su almacenamiento, visualización y posteriormente análisis.                "
+  subtype: presentation
+  speakers: [4]
+  language: es
+  complexity: "Beginner"
+
+-
+  id: 014
+  title: "The Big Bang Category Theory"
+  description: "Howard Wolowitz en Big Bang Theory, a pesar de haber estudiado en el MIT, no suele entender las explicaciones de Sheldon Cooper sobre física teórica. Lo mismo nos pasa a los desarrolladores cuando nos intentan explicar la Teoría de Categorías.
+                La Teoría de Categorías es un estudio matemático que trata de axiomatizar de forma abstracta diversas estructuras matemáticas como una sola, mediante el uso de objetos y morfismos.
+                Tal vez, el problema es que en lugar de Sheldon, quien debiera ayudarnos a entender estos conceptos es alguien más empático con nosotros, y en esta charla no será uno, sino 3 personajes los que nos contarán desde su perspectivas qué son los functores, mónadas y aplicativos.
+                En Big Bang Category Theory, analizaremos los conceptos utilizados en Programación Funcional de la Teoría de Categorías desde un prisma práctico y cercano, donde llevaremos sus definiciones formales a un código que soluciona problemas cotidianos, y empezaremos a entender cómo podemos ser mejores desarrolladores si introducimos estas leyes y axiomas a nuestro código diario."
+  subtype: presentation
+  speakers: [10]
+  language: es
+  complexity: "Beginner"
+
+-
+  id: 016
+  title: "Luces y sombras de Scrum en proyectos reales"
+  description: "En esta charla se hará una introducción de guerrilla sobre que es Scrum y como se aplica en entornos reales, comparando lo que dice la 'norma' con lo que en realidad pasa en los proyectos.
+                La charla es adecuada tanto para estudiantes que nunca han trabajado con Scrum, como para profesionales que quieren aprender de casos de éxito y tomar nota de los errores típicos."
+  subtype: presentation
+  speakers: [5]
+  language: es
+  complexity: "Beginner"
+-
+  id: 017
+  title: "2017 Odisea en el lodo"
+  description: "En 2017 Odisea en el lodo se va a intentar contar la experiencia con un proyecto heredado con graves fallos técnicos estando absolutamente solo para acabar explicando el planteamiento para 2019 del proyecto."
+  subtype: presentation
+  speakers: [11]
+  language: es
+  complexity: "Medium"
+-
+  id: 018
+  title: "Introducción al desarrollo Android en Kotlin"
+  description: "Introducción al desarrollo Android en Kotlin, de forma sencilla y sin necesitar conocimientos previos, simplemente conocer la programación orientada a objetos."
+  subtype: presentation
+  speakers: [18]
+  language: es
+  complexity: "Beginner"
+-
+  id: 019
+  title: "Kiali: Observability in Action for your Service Mesh"
+  description: "The industry is increasingly adopting a container-based microservices architectures as an industry standard.
+                Service Mesh technologies like Istio are the natural next step in the effort to simplify the complexity of managing an increasing number of integrated services.
+                One of the key aspects for the successful adoption of microservices is Observability. And one of the main challenges for Observability is taking the information about a system (telemetry, traces or logs) and processing these information assets and presenting them to the user in a way that helps them understand their architecture and identify potential problems.
+                Different companies can adopt and share the same technologies but they may have different observability needs due the domain nature of what is important for their business. Some big internet companies may have different criteria about granularity, priorities, health acceptance, etc.
+                Our main goal for this proposed session is to present the work we are doing in Kiali, describing the features from a practical perspective with clear examples with the aim to collect feedback about what observability data are most interesting from the user’s point of view.
+                Kiali is a relative new project that has been incorporated as part of the Istio add-ons and it is having good interest from the community.
+                As Kiali core developers, the opportunity to participate with this session will help us to interact closely with the ecosystem and build a strong community around the project."
+  subtype: presentation
+  speakers: [6]
+  language: es
+  complexity: "Medium"
+-
+  id: 020
+  title: "GitHub actions and quality of learning "
+  description: "If you are teaching code, grading it is actually code review. And a big part of it can be done automatically, via continuous integration tests in Travis. I started doing this in my my Cloud Computing classes, saving a lot of grading time that I could devote to more important things, like writing code to save me  time from grading. Among other things, this code scraped GitHub to analyze milestones and issues creates by students, but all of a sudden scraping from Travis was banned and the whole system crashed.
+                At the same time, GitHub actions were introduced. They went way further than CI, allowing the user to execute restricted Node/TypeScript or containerized code responding to any GH action. Good thing is, it can access the GH API so I needn't scrape my way to check stuff.
+                In this talk I'll show how Actions work, how you can use pre-defined actions in your repos, and also how they can be created and published in the ecosystem; as examples, I'll present the actions I created and published and how they have helped me teach development workflows, but also grade assignments at scale and improve quality of learning since students have instant feedback about the basics of the assignments they turn in."
+  subtype: presentation
+  speakers: [12]
+  language: es
+  complexity: "Medium"
