@@ -25,7 +25,7 @@
     - {
         startTime: "10:30",
         endTime: "11:30",
-        sessionIds: [002, 003, 004, 005]
+        sessionIds: [006, 007, 008, 310]
     }
     - {
         startTime: "11:30",
@@ -35,12 +35,12 @@
     - {
         startTime: "12:00",
         endTime: "13:00",
-        sessionIds: [002, 003, 004, 005]
+        sessionIds: [009, 010, 011, 012]
     }
     - {
         startTime: "13:00",
         endTime: "14:00",
-        sessionIds: [002, 003, 004, 005]
+        sessionIds: [013, 014, 311, 310]
     }
     - {
         startTime: "14:00",
@@ -50,12 +50,12 @@
     - {
         startTime: "16:00",
         endTime: "17:00",
-        sessionIds: [002, 003, 004, 005]
+        sessionIds: [016, 017, 312, 018]
     }
     - {
         startTime: "17:00",
         endTime: "18:00",
-        sessionIds: [002, 003, 004, 005]
+        sessionIds: [019, 020, 312, 310]
     }
     - {
         startTime: "18:00",

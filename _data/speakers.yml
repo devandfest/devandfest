@@ -124,7 +124,7 @@
          Aprendí muchísimo en empresas como Sun Microsystems, Qualcomm, Heineken o Idealista, ahora sigo haciéndolo de sus compañeros en Tuenti.
          También desorganizo la comunidad de Madrid Android Developer Group y organizo un montón de saraos"
    thumbnailUrl: nicolas.jpg
-   rockstar: false
+   rockstar: true
    social:
       - {name: "linkedin", link: "https://www.linkedin.com/in/npatarino/"}
       - {name: "twitter", link: "https://twitter.com/npatarino"}
@@ -203,7 +203,7 @@
    title: "Software Engineer"
    bio: "Xavier es ingeniero del software en Red Hat. Ha dedicado más de una década en desarrollo, despliegue y optimización de aplicación con alta disponibilidad. Actualmente está trabajando con temas de observabilidad para el proyecto de Kiali. "
    thumbnailUrl: xavier.jpg
-   rockstar: false
+   rockstar: true
    social:
       - {name: "linkedin", link: "https://www.linkedin.com/in/xavicanal/"}
       - {name: "twitter", link: "https://twitter.com/xeviknal"}
@@ -230,7 +230,7 @@
    title: "Mobile Developer"
    bio: "Mobile developer at Zerox IT :)."
    thumbnailUrl: carlos.jpg
-   rockstar: false
+   rockstar: true
    social:
       - { name: "linkedin", link: "https://es.linkedin.com/in/carlos-mac%C3%ADas-mart%C3%ADn-201187131"}
       - { name: "twitter", link: "https://twitter.com/CarlosMaciMar"}
