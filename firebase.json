@@ -7,6 +7,9 @@
     "indexes": "firestore.indexes.json"
   },
   "hosting": {
+<<<<<<< HEAD
+    "public": "_site",
+=======
     "public": "./build",
     "redirects": [{
       "source": "/index.html",
@@ -17,6 +20,7 @@
       "source": "**",
       "function": "prerender"
     }],
+>>>>>>> b58434722b5a98b9128c9d12f19c74a75c144afa
     "ignore": [
       "/test/**",
       "bower.json",
