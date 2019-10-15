@@ -145,8 +145,7 @@ footerBlocks:
  -
   title: "Links"
   links:
-   - {link: "http://devandfest.com", text: "GDG Granada"}
-   - {link: "https://developers.google.com", text: "Google Developers"}
+   - {link: "http://devandfest.com", text: "DevAndFest"}
  -
   title: "Contacto"
   links:

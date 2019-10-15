@@ -1,9 +1,10 @@
 -
   group: "Organizador principal"
   elements:
-    - {name: "GDG Granada", description: "GDG Granada", link: "http://gdggranada.com", imageUrl: "gdg.png"}
+    - {name: "DevAndFest", description: "DevAndFest", link: "http://devandfest.com", imageUrl: "devandfest.png"}
 -
   group: "Colaboran"
   elements:
+    - {name: "GDG Granada", description: "GDG Granada", link: "http://gdggranada.com", imageUrl: "gdg.png"}
     - {name: "Betabeers Granada", description: "Betabeers Granada", link: "https://betabeers.com/community/betabeers-granada-184/", imageUrl: "betabeers.png"}
     - {name: "Developer Student Club - Universidad de Granada", description: "Developer Student Club - Universidad de Granada", link: "https://twitter.com/DSC_Granada", imageUrl: "student.png"}
