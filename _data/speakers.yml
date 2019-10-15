@@ -10,6 +10,8 @@
    rockstar: true
    social:
       - {name: "linkedin", link: "https://www.linkedin.com/in/momartinm/"}
+      - { name: "github", link: "https://github.com/momartinm"}
+      - { name: "twitter", link: "https://twitter.com/moisipm"}
 -
    id: 2
    name: "Inés"
@@ -20,7 +22,9 @@
    thumbnailUrl: ines.png
    rockstar: true
    social:
-     - {name: "linkedin", link: "https://www.linkedin.com/in/ineshuertas/"}
+      - {name: "linkedin", link: "https://www.linkedin.com/in/ineshuertas/"}
+      - { name: "github", link: "https://github.com/ineshf"}
+      - { name: "twitter", link: "https://twitter.com/quierodata"}
 -
    id: 3
    name: "Nerea"
@@ -32,6 +36,7 @@
    rockstar: true
    social:
       - {name: "linkedin", link: "https://www.linkedin.com/in/nerealuis/"}
+      - { name: "twitter", link: "https://twitter.com/sailormerqury"}
 -
    id: 4
    name: "Gema"
@@ -41,6 +46,9 @@
    bio: "Soy Gema, ingeniera de software trabajo en una de las mejores empresas tecnológicas, BBVA Next Technologies en el equipo de Payments desarrollando soluciones de pagos. Me encantan los desafíos, aprender cosas nuevas y disfrutar durante el camino. Compartir experiencias con otros me aporta mucha energía, motivación y entusiasmo a mi trabajo."
    thumbnailUrl: gema.jpg
    rockstar: true
+   social:
+      - {name: "linkedin", link: "https://www.linkedin.com/in/nerealuis/"}
+      - { name: "twitter", link: "https://twitter.com/garnaizd92"}
 -
    id: 5
    name: "Javier"
@@ -51,7 +59,9 @@
    thumbnailUrl: javierlopez.jpg
    rockstar: true
    social:
-     - {name: "linkedin", link: "https://www.linkedin.com/in/jlopezmartinez/"}
+      - {name: "linkedin", link: "https://www.linkedin.com/in/jlopezmartinez/"}
+      - { name: "github", link: "https://github.com/javioreto"}
+      - { name: "twitter", link: "https://twitter.com/javioreto"}
 -
    id: 6
    name: "Lucas"
@@ -62,7 +72,9 @@
    thumbnailUrl: lucasponce.jpg
    rockstar: true
    social:
-     - {name: "linkedin", link: "https://www.linkedin.com/in/juantomasgarcia/"}
+      - {name: "linkedin", link: "https://www.linkedin.com/in/lucas-ponce-385533/"}
+      - {name: "twitter", link: "https://twitter.com/rutlucas"}
+      - { name: "github", link: "https://github.com/lucasponce"}
 -
    id: 7
    name: "David"
