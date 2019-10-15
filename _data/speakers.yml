@@ -1,77 +1,67 @@
-- 
-  id: 1
-  name: "Borja"
-  surname: "Godoy Gago"
-  company: "IBM Research"
-  title: "Frontend developer"
-  bio: "Frontend developer en IBM Research. En busca del asistente de voz que me soluciione la vida, defensor de los web components a la vez que crítico con ellos. Ayudo en lo que puede en distintas comunidades como Google developer Groups y Open Source Weekends. Profesor en Fictizía y acerca a CollisionsProjects a la comunidad."
-  thumbnailUrl: borjagodoy.jpeg
-  rockstar: false
-  social:
-    - {name: "twitter", link: "https://twitter.com/gody11"}
-    - {name: "linkedin", link: "https://www.linkedin.com/in/borja-godoy/"}
+
 -
-   id: 2
-   name: "Ruben"
-   surname: "Serrano"
-   company: "Wallapop"
-   title: "Senior Android Engineer"
-   bio: "Programador Android vocacional, actualmente trabaja como Senior Android Engineer en Wallapop, y es uno de los organizadores del GDG Barcelona. Anteriormente trabajó como Lead Android Developer en Redbooth, y ha sido profesor en la Universidad Autónoma de Barcelona. En su tiempo libre aprende Flutter y Fuchsia, pero sobretodo, a ser padre."
-   thumbnailUrl: rubenserrano.jpeg
-   rockstar: true
-   social:
-     - {name: "linkedin", link: "https://www.linkedin.com/in/rubenserranonunez/"}
--
-   id: 3
+   id: 1
    name: "Moises"
    surname: "Martinez"
-   company: "King College of London "
-   title: "Research"
-   bio: "I'm Moises, a PhD in Artificial Intelligence and robotics at King's College London. I LOVE Machine Learning, robots and AI in general. I am always looking for new challenges. "
+   company: "Sngular"
+   title: "Artificial Intelligence and BigData Architech at Sngular"
+   bio: "Soy Doctor en Inteligencia Artificial especializado en las áreas de robótica, planificación automática y aprendizaje automático. Además, soy organizador de T3chfest y Madrid Google Cloud Developer group, speaker en diferentes meetups y GDE en Machine Learning."
    thumbnailUrl: moises.jpg
-   rockstar: false
+   rockstar: true
    social:
       - {name: "linkedin", link: "https://www.linkedin.com/in/momartinm/"}
 -
-   id: 4
-   name: "Alberto"
-   surname: "Gutierrez Juanes"
-   company: "RedHat"
-   title: "Engineer"
-   bio: "Alberto is Software Engineer in RedHat working in opensource projects. He is currently working in Kiali, a observability tool for Istio Service Mesh. He was working in BBVA for almost 4 years working in cloud environments and BigData, certificated in Hadoop and OpenStack. He is Google Developer Expert in google Cloud and organizer of Google Developers Groups."
-   thumbnailUrl: alberto.jpeg
+   id: 2
+   name: "Inés"
+   surname: "Huertas"
+   company: "thesidewaysproject"
+   title: "Data Advisor - Rladies Madrid Coordinator - NASA Open Data Datanauts"
+   bio: "Inés Huertas es Big Data y Machine Learning expert, coordinadora en Rladies Madird y Datanauts in Open Data NASA Program. Ingeniera de sistemas, en 2015 funda una Startup de Big Data y ML de la cual es CEO durante casi 5 años. Actualmente trabaja como asesora dentro del campo de data para diferentes empresas."
+   thumbnailUrl: ines.png
    rockstar: true
-   ribbon:
-     - {abbr: "GDE", title: "Google Developer Expert", url: "https://developers.google.com/experts/"}
-     - {abbr: "GDD", title: "Google Developer Group", url: ""}
    social:
-     - {name: "linkedin", link: "https://www.linkedin.com/in/gutierrezjuanesalberto/"}
+     - {name: "linkedin", link: "https://www.linkedin.com/in/ineshuertas/"}
+-
+   id: 3
+   name: "Nerea"
+   surname: "Luis"
+   company: "Sngular"
+   title: "AI Engineer at Sngular"
+   bio: "Ingeniera informática y doctora en Ciencias de la Computación por la Universidad Carlos III de Madrid. Ahora forma parte del grupo de Inteligencia Artificial de Sngular. Es un activa y premiada investigadora, divulgadora y comunicadora científica. En 2016 obtuvo el premio Google Anita Borg, por sus iniciativas tecnológicas llevadas a cabo de forma altruista en paralelo a su carrera académica. Entre ellas se encuentra T3chFest, evento gratuito de divulgación tecnológica (2000 asistentes) que además promueve y resalta la falta de diversidad en dicho sector. En 2018 la Fundación COTEC la seleccionó como experta en Tecnología, Talento y Género dentro de su red “Los 100 de Cotec”. Ese mismo año fue seleccionada como técnico de asesoramiento científico, en la iniciativa Ciencia en el Parlamento promovida por el Congreso de los Diputados. También en 2018 ha sido ganadora del reconocimiento Innovadoras TIC por la Fundación Cibervoluntarios y el medio Business Insider la ha reconocido como uno de los 23 talentos menores de 35 años dispuestos a liderar la revolución tecnológica. Recientemente, ha sido galardonada por la Casa Real con la condecoración a la Orden del Mérito Civil."
+   thumbnailUrl: nerea.jpg
+   rockstar: true
+   social:
+      - {name: "linkedin", link: "https://www.linkedin.com/in/nerealuis/"}
+-
+   id: 4
+   name: "Gema"
+   surname: "Arnaiz"
+   company: "BBVA Next Technologies"
+   title: "Software Engineer"
+   bio: "Soy Gema, ingeniera de software trabajo en una de las mejores empresas tecnológicas, BBVA Next Technologies en el equipo de Payments desarrollando soluciones de pagos. Me encantan los desafíos, aprender cosas nuevas y disfrutar durante el camino. Compartir experiencias con otros me aporta mucha energía, motivación y entusiasmo a mi trabajo."
+   thumbnailUrl: gema.jpg
+   rockstar: true
 -
    id: 5
-   name: "Jorge Juan"
-   surname: "Barroso Carmona"
-   company: "karumi"
-   title: ""
-   bio: "Trabajó en Tuenti entre 2009 a 2013 en el equipo equipo de android. Ha participado en varios proyectos móviles de la compañía como j2me, Blackberry y Android. Antes de Tuenti trabajó en varias empresas desarrollando juegos para dispositivos móviles y juegos multiplayer. Desde hace un tiempo es Google Developer Expert en Android.."
-   thumbnailUrl: jorge-barroso.png
+   name: "Javier"
+   surname: "López"
+   company: "BBVA Next Technologies"
+   title: "TechLead"
+   bio: "Google Developer Expert en Cloud, early adopter de nuevas tecnologías y amigo de sus amigos, siempre saludo."
+   thumbnailUrl: javierlopez.jpg
    rockstar: true
-   ribbon:
-     - {abbr: "GDE", title: "Google Developer Expert", url: "https://developers.google.com/experts/"}
    social:
-     - {name: "linkedin", link: "https://www.linkedin.com/in/jorge-juan-barroso-carmona-a3aa225/"}
+     - {name: "linkedin", link: "https://www.linkedin.com/in/jlopezmartinez/"}
 -
    id: 6
-   name: "Juan Tomas"
-   surname: ""
-   company: "Sngular"
-   title: "Chief Envisioner Officer"
-   bio: "Chief Envisioner Officer at Sngular, Google Developer Expert for cloud, Author the Spanish free software book 'La Pastilla Roja'         Organizer of Machine Learning Spain and GDG cloud Madrid meetups.          Former President of Hispalinux (Spanish Linux Local User Group) ."
-   thumbnailUrl: juantomas.jpg
-   rockstar: false
-   ribbon:
-     - {abbr: "GDE", title: "Google Developer Expert", url: "https://developers.google.com/experts/"}
+   name: "Lucas"
+   surname: "Ponce"
+   company: "RedHat"
+   title: "Software Engineer"
+   bio: "Lucas is a Senior Software Engineer at Red Hat working for the Kiali project. Prior to joining the Kiali project, he has worked in projects like Hawkular, ManageIQ and GateIn; collaborating occasionally on others community projects like Wildfly and Undertow. Before he moved into engineering, he worked as a Solution Architect helping customers to build scalable solutions. He started his career building Geographic Information Systems in the nineties."
+   thumbnailUrl: lucasponce.jpg
+   rockstar: true
    social:
-     - {name: "twitter", link: "https://plus.google.com/juantomas/"}
      - {name: "linkedin", link: "https://www.linkedin.com/in/juantomasgarcia/"}
 -
    id: 7
@@ -93,7 +83,7 @@
    company: "Digital55"
    title: "Full-stack developer"
    bio: "José Antonio Ruiz es desarrollador web, actualmente trabaja en Digital55 de forma remota desde Almería. Es un apasionado de las tecnologías web y mobile: Ionic, Firebase, Angular, PWA, etc. Colabora en algunos proyectos open source como runnerty.io. Además es speaker habitual y co-organizador de AlmeriaJs. "
-   thumbnailUrl: david_lazaro.jpeg
+   thumbnailUrl: joseantonio.jpeg
    rockstar: false
    social:
       - {name: "linkedin", link: "https://www.linkedin.com/in/jose-antonio-ruiz-santiago/"}
@@ -106,7 +96,7 @@
    company: "GoMore (Amovens)"
    title: "Android Developer"
    bio: "José Antonio Ruiz es desarrollador web, actualmente trabaja en Digital55 de forma remota desde Almería. Es un apasionado de las tecnologías web y mobile: Ionic, Firebase, Angular, PWA, etc. Colabora en algunos proyectos open source como runnerty.io. Además es speaker habitual y co-organizador de AlmeriaJs. "
-   thumbnailUrl: david_lazaro.jpeg
+   thumbnailUrl: olmo.jpg
    rockstar: false
    social:
       - {name: "linkedin", link: "https://www.linkedin.com/in/voghDev/"}
@@ -121,7 +111,7 @@
    bio: "Soy un porteño amante de Android y Kotlin. Soñador. Primero de su nombre. Asador del software.
          Aprendí muchísimo en empresas como Sun Microsystems, Qualcomm, Heineken o Idealista, ahora sigo haciéndolo de sus compañeros en Tuenti.
          También desorganizo la comunidad de Madrid Android Developer Group y organizo un montón de saraos"
-   thumbnailUrl: david_lazaro.jpeg
+   thumbnailUrl: nicolas.jpg
    rockstar: false
    social:
       - {name: "linkedin", link: "https://www.linkedin.com/in/npatarino/"}
@@ -134,7 +124,7 @@
    company: "ApetEat"
    title: "CTO"
    bio: "Muchachito de Castilla que se mudó a la gran ciudad con su maleta llena de sueños e  ilusiones  para afrontar nuevos retos profesionales. Llevo desarrollando con Python + Django desde 2012 y desde el primer contacto con Python caí prendado por el lenguaje. Con Linux, Python y Vim puedo conquistar el mundo. Actualmente trabajo como CTO en la startup ApetEat, el eCommerce que está revolucionando la forma de comer en la oficina."
-   thumbnailUrl: david_lazaro.jpeg
+   thumbnailUrl: miguel.jpg
    rockstar: false
    social:
       - {name: "linkedin", link: "https://www.linkedin.com/in/miguelflg13/"}
@@ -148,7 +138,7 @@
    company: "Perl 6 core / Universidad de Granada"
    title: ""
    bio: "Developer since the eighties and until my eighties. Teaching and researching at the university of Granada. Loves all programming languages."
-   thumbnailUrl: david_lazaro.jpeg
+   thumbnailUrl: jj.jpg
    rockstar: false
    social:
       - {name: "linkedin", link: "https://www.linkedin.com/in/jjmerelo/"}
@@ -161,7 +151,7 @@
    company: "Universidad de Granada"
    title: ""
    bio: "Estudiante de ingeniería informática en la UMA. Apasionada de la tecnología, organizadora de eventos y adoradora de pingüinos."
-   thumbnailUrl: david_lazaro.jpeg
+   thumbnailUrl: cristina.jpg
    rockstar: false
    social:
       - {name: "linkedin", link: "https://www.linkedin.com/in/cdg-97/"}
@@ -175,7 +165,7 @@
    title: "jtsec"
    bio: "Consultor experto de estándares de seguridad IT como Common Criteria, FIPS 140-2, LINCE o PCI-PTS. Ponente en diversas conferencias en materia de seguridad IT y certificación, y profesor del máster de Ciberseguridad de la UGR. Full stack hacker wannabe, Javier es cofundador, Director Técnico y Jefe de Operaciones de jtsec Beyond IT Security.
 ."
-   thumbnailUrl: david_lazaro.jpeg
+   thumbnailUrl: jtallon.jpg
    rockstar: false
    social:
       - {name: "linkedin", link: "https://www.linkedin.com/in/javiertallon/"}
@@ -187,7 +177,7 @@
    company: "seedtag"
    title: "Teach Lead"
    bio: "Tech Lead en seedtag, Google Developer Expert en Cloud y Google Cloud Certified como Professional Cloud Architect. Lleva más de 12 años trabajando en el mundo del desarrollo de software con diferentes tecnologías principalmente en en backend en desarrollo web."
-   thumbnailUrl: david_lazaro.jpeg
+   thumbnailUrl: lauramorillo.jpg
    rockstar: false
    social:
       - {name: "linkedin", link: "https://www.linkedin.com/in/lauramorillovelarderodriguez/"}
@@ -200,7 +190,7 @@
    company: "RedHat"
    title: "Software Engineer"
    bio: "Xavier es ingeniero del software en Red Hat. Ha dedicado más de una década en desarrollo, despliegue y optimización de aplicación con alta disponibilidad. Actualmente está trabajando con temas de observabilidad para el proyecto de Kiali. "
-   thumbnailUrl: david_lazaro.jpeg
+   thumbnailUrl: xavier.jpg
    rockstar: false
    social:
       - {name: "linkedin", link: "https://www.linkedin.com/in/xavicanal/"}
@@ -214,7 +204,7 @@
    title: "Coordinador"
    bio: "Catañol, cordobéh y subversivo. Colecciono títulos de Ingeniería Informática. Trabajo en el Servicio de Informática de la Universidad de Córdoba
           y coordino el Aula de Software Libre. Si no estoy montando algo estoy durmiendo. Duermo poco."
-   thumbnailUrl: david_lazaro.jpeg
+   thumbnailUrl: sergio.jpg
    rockstar: false
    social:
       - {name: "linkedin", link: "https://www.linkedin.com/in/decano/"}
@@ -227,7 +217,7 @@
    company: "Zerox IT / GDG Huelva"
    title: "Mobile Developer"
    bio: "Mobile developer at Zerox IT :)."
-   thumbnailUrl: david_lazaro.jpeg
+   thumbnailUrl: carlos.jpg
    rockstar: false
    social:
       - { name: "linkedin", link: "https://es.linkedin.com/in/carlos-mac%C3%ADas-mart%C3%ADn-201187131"}

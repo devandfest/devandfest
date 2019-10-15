@@ -43,8 +43,8 @@ c4sponsorsUrl: "/assets/GDG_DevFest_Partnership.pdf"
 # Navigation
 navigationLinks:
  - {permalink: "/", text: "Home"}
-#  - {permalink: "/schedule/", text: "Agenda"}
-#  - {permalink: "/speakers/", text: "Ponentes"}
+ - {permalink: "/schedule/", text: "Agenda"}
+ - {permalink: "/speakers/", text: "Ponentes"}
 rightNavigationButtons:
  - {link: "https://www.eventbrite.es/e/entradas-devandfest-73472770033", text: "Registro"}
 
