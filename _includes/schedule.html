@@ -5,7 +5,7 @@
         <div class="schedule-table col-lg-8 col-md-10 col-md-offset-1">
             <h4 class="schedule-table-heading">{{ day.dateReadable }}</h4>
             <div class="timeslot track-header stick-header">
-                <div class="track-header-label">Day {{ forloop.index }}</div>
+                <div class="track-header-label">{{ forloop.index }}</div>
                 <div class="timeslot-elements flexbox-wrapper">
                     {% for track in day.tracks %}
                     {% assign trackColWidth = 12 | divided_by: forloop.length %}
@@ -52,7 +52,7 @@
                                                     </p>
                                                     </li>
                                                     {% endif %}
-                                                {% endfor %}    
+                                                {% endfor %}
                                             {% endfor %}
                                         </ul>
                                     </div>
@@ -61,7 +61,7 @@
                                 <div class="slot col-md-{{ slotColWidth }} col-xs-12 service-slot flexbox-item-height" data-slot-detail="{{ session.place }}">
                                     <div class="color-line"></div>
                                     <div class="slot-content">
-                                        <h5 class="slot-title" itemprop="name">{{ session.title }}</h5>
+                                        <h5 class="slot-title" itemprop="name">{{ session.title }} </h5>
                                         {% if session.description != null %}
                                         <p class="service-description">{{ session.description }}</p>
                                         {% endif %}
