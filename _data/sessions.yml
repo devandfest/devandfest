@@ -87,8 +87,7 @@
 -
   id: 005
   title: "Entiende, instala, observa y arregla tu malla de servicios con Istio y Kiali"
-  description: "Como parte de nuestro desarrollo en seedtag una de las necesidades que tuvimos que afrontar fue la de crear un sistema que nos permitiera gestionar y generar reportes con la información que pasaba por nuestro sistema basado en microservicios para poder controlar desde el negocio cosas tan importantes la evolución de nuestro producto y su facturación.
-                En esta charla veremos las diferentes opciones que planteamos para realizar esta tarea, las que funcionaron y las que tuvimos que modificar para acabar con un sistema que actualmente procesa más de 3 TB al día de eventos (y sigue creciendo día a día) utilizando herramientas de Google Cloud."
+  description: "En esta sesión instalaremos un cluster de Kubernetes, montaremos una malla de servicios Istio y desplegaremos diferentes aplicaciones con la finalidad de mostrar las funcionalidades principales de Istio: enrutamiento y seguridad. Las aplicaciones desplegadas tendrán problemas que tendremos que detectar, analizar y si podemos, solucionar."
   subtype: workshop
   speakers: [16]
   language: es
