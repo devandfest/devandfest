@@ -148,7 +148,7 @@
   complexity: "Beginner"
 -
   id: 012
-  title: "Mira mamá, sin manos."
+  title: "Event sourcing killed database star."
   description: "La base de datos es solo un detalle de nuestro aplicación (Uncle Bob dixit) y como tal no puede marcarnos el diseño del dominio. Si usamos un ORM (o un ODM si usamos noSQL) tendremos la ventaja de crear código muy rápido pero a costa de tener que sacrificar diseño y calidad. Primero porque no todo se puede modelar de forma que un ORM o un ODM lo soporte y segundo porque probablemente nos obligue a usar un modelo anémico (anemic model) en vez de un modelo rico (rich model). Para entendernos: clases llenas de getters y setters que no garantizan que nuestra información sea consistente con las reglas de dominio.
                 Durante dos horas veremos que es posible una alternativa a las bases de datos relacionales y no relacionales. Porque, ¿y si en vez de almacenar el estado final de la información almacenamos cada cambio que se haga? ¡Podríamos reconstruir nuestras entidades en cualquier punto de su historia!  Eso es Event Sourcing, un almacén donde se guardan todos los cambios de estado de una aplicación como una secuencia de eventos (Martin Fowler dixit).
                 Desarrollaremos una pequeña API con Typescript, donde podamos comprobar in situ como funciona Event Sourcing, que ventajas y desventajas aporta y en qué situaciones es posible usarlo."
