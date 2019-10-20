@@ -139,9 +139,8 @@
   complexity: "Beginner"
 -
   id: 011
-  title: "Gestión de eventos de aplicación en la nube"
-  description: "Como parte de nuestro desarrollo en seedtag una de las necesidades que tuvimos que afrontar fue la de crear un sistema que nos permitiera gestionar y generar reportes con la información que pasaba por nuestro sistema basado en microservicios para poder controlar desde el negocio cosas tan importantes la evolución de nuestro producto y su facturación.
-                En esta charla veremos las diferentes opciones que planteamos para realizar esta tarea, las que funcionaron y las que tuvimos que modificar para acabar con un sistema que actualmente procesa más de 3 TB al día de eventos (y sigue creciendo día a día) utilizando herramientas de Google Cloud."
+  title: "Devops con Docker y Kubernetes"
+  description: "La brecha entre desarrollo y operaciones puede ser más fácil de superar con las herramientas adecuadas. En esta charla veremos cómo utilizando Docker y Kubernetes podemos simplificar nuestro flujo de trabajo y el paso a producción para ir adoptando las buenas prácticas que la filosofía Devops propone."
   subtype: presentation
   speakers: [15]
   language: es
