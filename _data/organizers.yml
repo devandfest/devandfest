@@ -6,5 +6,8 @@
   group: "Colaboran"
   elements:
     - {name: "GDG Granada", description: "GDG Granada", link: "http://gdggranada.com", imageUrl: "gdg.png"}
+    - {name: "Delegacion Estudiantes ETSIIT", description: "Delegacion Estudiantes ETSIIT", link: "https://deiit.ugr.es/", imageUrl: "delegacion.jpeg"}
     - {name: "Betabeers Granada", description: "Betabeers Granada", link: "https://betabeers.com/community/betabeers-granada-184/", imageUrl: "betabeers.png"}
+    - {name: "LibrelabGRX", description: "Librelab GRX", link: "https://librelabgrx.cc/", imageUrl: "librelabgrx.png"}
     - {name: "Developer Student Club - Universidad de Granada", description: "Developer Student Club - Universidad de Granada", link: "https://twitter.com/DSC_Granada", imageUrl: "student.png"}
+    - {name: "Aula Software Libre UCO", description: "Aula Software Libre UCO", link: "https://www.uco.es/aulasoftwarelibre/", imageUrl: "aulacordoba.png"}
