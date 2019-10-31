@@ -95,10 +95,10 @@
 
 -
   id: 006
-  title: "Despliegue de modelos de Machine Learning en producción"
-  description: "Durante la charla veremos diferentes formas en las que podemos desplegar modelos en producción con diferentes tecnologías, desde generar puntos de API con modelos en R a soluciones mas simples usando TensorFlow con Google Cloud"
+  title: "Empty block"
+  description: ""
   subtype: presentation
-  speakers: [2]
+  speakers: []
   language: es
   complexity: "Medium"
 -

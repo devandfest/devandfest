@@ -13,19 +13,6 @@
       - { name: "github", link: "https://github.com/momartinm"}
       - { name: "twitter", link: "https://twitter.com/moisipm"}
 -
-   id: 2
-   name: "Inés"
-   surname: "Huertas"
-   company: "thesidewaysproject"
-   title: "Data Advisor - Rladies Madrid Coordinator - NASA Open Data Datanauts"
-   bio: "Inés Huertas es Big Data y Machine Learning expert, coordinadora en Rladies Madird y Datanauts in Open Data NASA Program. Ingeniera de sistemas, en 2015 funda una Startup de Big Data y ML de la cual es CEO durante casi 5 años. Actualmente trabaja como asesora dentro del campo de data para diferentes empresas."
-   thumbnailUrl: ines.png
-   rockstar: true
-   social:
-      - {name: "linkedin", link: "https://www.linkedin.com/in/ineshuertas/"}
-      - { name: "github", link: "https://github.com/ineshf"}
-      - { name: "twitter", link: "https://twitter.com/quierodata"}
--
    id: 3
    name: "Nerea"
    surname: "Luis"
