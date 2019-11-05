@@ -222,3 +222,15 @@
       - { name: "linkedin", link: "https://es.linkedin.com/in/carlos-mac%C3%ADas-mart%C3%ADn-201187131"}
       - { name: "twitter", link: "https://twitter.com/CarlosMaciMar"}
       - { name: "github", link: "https://github.com/carlosmacmar"}
+-
+   id: 19
+   name: "Ana"
+   surname: "Nieto"
+   company: "Digital Forensics, NICS Lab, University of Málaga"
+   title: "Ana Nieto Security Researcher"
+   bio: "Enamorada de la informática por sorpresa y de la seguridad por curiosidad, formo parte del grupo Network, Information and Computer Security (NICS) Lab de la Universidad de Málaga desde hace más de 10 años, no había acabado la ingeniería. Durante este tiempo he aprendido a investigar sin darme cuenta, y a amar mucho mi profesión, con sus claros y oscuros inclusive. Formar parte de NICS todos estos años me ha permitido ver los cambios producidos en la carrera de informática muy de cerca. Impartir docencia en ciberseguridad es una de las grandes experiencias de mi día a día, y conocer alumnos con pasión y ganas de arriesgarse mi vicio."
+   thumbnailUrl: ana.jpg
+   rockstar: true
+   social:
+      - { name: "linkedin", link: "https://www.linkedin.com/in/ana-nieto-72b17718/"}
+      - { name: "twitter", link: "https://twitter.com/cadirneca"}

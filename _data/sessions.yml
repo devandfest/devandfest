@@ -95,10 +95,10 @@
 
 -
   id: 006
-  title: "Empty block"
-  description: ""
+  title: "Análisis forense a la carta con python"
+  description: "Durante esta charla se introducirán los nuevos desafíos forenses, poniendo el foco en python como uno de los lenguajes que ofrece grandes posibilidades para el desarrollo de nuevas funcionalidades que flexibilicen y automaticen algunos análisis y el aprendizaje de diferentes expertos."
   subtype: presentation
-  speakers: []
+  speakers: [19]
   language: es
   complexity: "Medium"
 -
