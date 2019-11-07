@@ -8,7 +8,7 @@
     - {title: "Prefabricada 2 A.1.1 WorkShops", color: "#00796B"}
   timeslots:
     - {
-      startTime: "08:00",
+      startTime: "08:30",
       endTime: "09:00",
       sessionIds: [000]
     }
