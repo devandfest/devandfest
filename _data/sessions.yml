@@ -28,10 +28,10 @@
   complexity: "Beginner"
 
 - id: 311
-  title: "Mystery Talk"
-  description: ""
+  title: "Flutter: Beyond Mobile"
+  description: "¿Cansado de tener que reescribir tu aplicación desde cero para cada plataforma? ¿Eres un inconformista con las alternativas actuales? Flutter ofrece un framework, desarrollado por Google y la comunidad, que te permite desarrollar aplicaciones nativas atractivas con mucha facilidad, tanto para Android como iOS. Lanzado de forma oficial hace menos de un año, es uno de las herramientas con más éxito de los últimos años. Compañías como Google ya la usan a diario, así como Alibaba, BBVA o Tencent. Conoce también las últimas novedades en Flutter, como el soporte experimental para plataformas de escritorio y web."
   subtype: presentation
-  speakers: []
+  speakers: [999]
   language: es
   complexity: "Beginner"
 

@@ -234,3 +234,15 @@
    social:
       - { name: "linkedin", link: "https://www.linkedin.com/in/ana-nieto-72b17718/"}
       - { name: "twitter", link: "https://twitter.com/cadirneca"}
+-
+   id: 999
+   name: "Jesús"
+   surname: "Rodríguez"
+   company: "Universidad de Córdoba"
+   title: "Estudiante"
+   bio: "Estudiante de Ingeniería de la Computación y con experiencia en el mercado laboral, he trabajado con tecnologías móviles nativas e híbridas. Amante de Flutter, colaboro con la comunidad aportando mi granito de arena. También poseo diversos conocimientos en otras áreas, como Linux, aprendizaje automático, desarrollo web, etc. Colaborador en #FlutterConf2019."
+   thumbnailUrl: jesusro.jpg
+   rockstar: true
+   social:
+      - { name: "linkedin", link: "https://www.linkedin.com/in/jesusrp98"}
+      - { name: "twitter", link: "https://twitter.com/jesusrp98"}
